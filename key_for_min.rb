@@ -9,7 +9,11 @@ def key_for_min_value(name_hash)
   b = ""
   b = d.max
 
-  name_hash.index(b * -1)
-
+  if name_hash != {}
+    b = b * -1
+    name_hash.key(b)
+        else
+        nil
+      end
 
 end
