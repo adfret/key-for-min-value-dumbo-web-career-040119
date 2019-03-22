@@ -1,7 +1,7 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
-def key_for_min_value(name_hash)
+def smallest_hash(name_hash)
   d = []
   collect do |i,v|
   d << v * -1
