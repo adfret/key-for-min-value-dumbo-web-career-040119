@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   d = []
-  collect do |i,v|
+  name_hash.collect do |i,v|
   d << v * -1
   end
   b = ""
